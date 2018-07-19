@@ -1,0 +1,46 @@
+{
+  "blauesband":
+  {
+    "start": "Start",
+    "finish": "Ziel",
+    "imgAlt": "Start beim Blauen Band",
+    "img2Alt": "Unser Team beim Blauen Band",
+    "plakatAlt": "Plakat Blaues Band",
+    "classes": "Altersklassen",
+    "class": "Klasse",
+    "yearFrom": "Jahrgang von",
+    "yearTo": "Jahrgang bis",
+    "organization":
+    {
+      "date": { "title": "Datum", "text": "" },
+      "location": { "title": "Ort", "text": "Strandbad Faak am See" },
+      "registration": { "title": "Anmeldung", "text": "ab 8:00 Uhr am Wettkampftag, bei der Badekasse Strandbad Faak am See." },
+      "fee": { "title": "Nenngeld", "text": "7 EUR pro Teilnehmer" },
+      "start": { "title": "Start", "text": "pünktlich um 10:00 Uhr auf der Faaker See Insel (wir bitten um rechtzeitige Anmeldung)." },
+      "route": { "title": "Strecke", "text": "Es gilt die Schwimmstrecke von rund 750m von der Faaker See Insel bis ins Strandbad Faak zu bezwingen." },
+      "ferry": { "title": "Überfuhr", "text": "Die Überfuhr zur Insel erfolgt um ca. 9:30 Uhr durch die Wasserrettung." },
+      "participants": { "title": "Teilnehmer", "text": "Teilnehmen kann jeder der sich in der Lage fühlt die 750m zu bewältigen." }
+    },
+    "further":
+    {
+      "afterwards": { "title": "Nach dem Bewerb", "text": "Nach dem Bewerb steht den Athleten eine Labestation zum Kräftetanken zur Verfügung." },
+      "ceremony": { "title": "Siegerehrung", "text": "Die Siegerehrung findet vorraussichtlich gegen 13:00 Uhr statt." },
+      "prices": { "title": "Preise", "text": "Für die ersten 3, der jeweiligen Altersklassen gibt es Pokale und Urkunden. Alle weiteren Teilnehmer bekommen natürlich auch eine Urkunde und eine Erinnerungsmedaille. Für den Gesamtsieger, also denjenigen der die Strecke am schnellsten bewältigt, gibt es das traditionelle Blaue Band vom Faaker See. Außerdem gibt es für den jüngsten und ältesten Teilnehmer ein kleines Geschenk." },
+      "security": { "title": "Sicherheit", "text": "Während des gesamten Bewerbs werden die Teilnehmer durch die Rettungsschwimmer unserer Einsatzstelle überwacht." },
+      "misc": { "title": "Sonstiges", "text": "Umkleide- und Duschmöglichkeiten befinden sich im Strandbad." }
+    },
+    "rulesTitle": "Wettkampfordnung",
+    "rules":
+    {
+      "rule1": { "title": "Erlaubte Ausrüstung", "text": "Wettkampfteilnehmer müssen die vom Veranstalter zur Verfügung gestellte Badekappe tragen. Werden zwei Badehauben getragen, so muss die vom Veranstalter gestellte außen getragen werden. Wird diese unabsichtlich während des Schwimmens verloren, erfolgt keine Bestrafung. Goggles (Schwimmbrillen) und Nasenspangen sind erlaubt.<br /><br />" },
+      "rule2": { "title": "Unerlaubte Ausrüstung", "items":
+      [
+        "Hilfsmittel wie Flossen und sonstige Fußbekleidungen jeglicher Art, Handschuhe, Paddles, Schnorchel oder Vorrichtungen um im Wasser zu treiben.",
+        "Kälteschutzanzüge (z.B. Neoprens)",
+        "Die Verwendung von Neoprenteilen (z.B. Hosen usw.) ist nicht gestattet.",
+        "Die Verwendung von Triathlonanzügen ist nicht gestattet."
+      ] },
+      "rule3": { "title": "Begriffsbestimmung Kälteschutzanzug (Wetsuits)", "text": "Unter einem Kälteschutzanzug versteht man eine Ganzkörperschwimmbekleidung (ausgenommen Kopf, Hände und Füße), welche aus einem Material besteht, das geeignet ist, Wettkampfteilnehmer beim Schwimmen im kalten Wasser vor Kälte zu schützen (z.B. Neopren o. ä. Materialien). Da diese Materialien neben ihrer Kälteschutzfunktion auch Auftriebseigenschaften aufweisen (gehen im Wasser nicht unter) und daher auch eine Schwimmhilfe darstellen, dürfen diese Kälteschutzanzüge nicht verwendet werden." }
+    }
+  }
+}

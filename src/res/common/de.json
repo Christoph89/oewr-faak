@@ -1,0 +1,42 @@
+{
+  "description": "Wasserrettung Faaker See - Jederzeit einsatzfähig, jederzeit einsatzbereit!",
+  "menu": 
+  [
+    { "url": "#/home", "text": "Home", "icon": "fa-home" }
+  ],
+  "media": 
+  [
+    { "url": "https://www.facebook.com/OWR.Faak", "text": "Facebook", "icon": "fa-facebook", "target": "_blank" },
+    { "url": "mailto:faak@oewr-kaernten.at", "text": "Email", "icon": "fa-envelope" },
+    { "url": "tel:+4342544744", "text": "Telefon", "icon": "fa-phone" }
+  ],
+  "lng": 
+  {
+    "other": "English",
+    "chg": "Use English version"
+  },
+  "social": 
+  {
+    "fb": "Facebook",
+    "ig": "Instagram",
+    "email": "Email",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp"
+  },
+  "confirm":
+  {
+    "ok": "OK",
+    "cancel": "Abbrechen"
+  },
+  "info":
+  {
+    "ok": "OK"
+  },
+  "impressum": "Impressum & Datenschutz",
+  "impressumUrl": "#/impressum",
+  "cookieAgreement": "Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies und der Nutzung ihrer persönlichen Daten erhalten Sie in unserer <a href=\"#/impressum\">Datenschutzerklärung</a>.",
+  "agreeCookies": "Jetzt zustimmen",
+  "agreeCookiesUrl": "#/cmd/agree-cookies",
+  "copyright": "Copyright &copy; Christoph Schaunig 2017",
+  "test": "%src/abc"
+}

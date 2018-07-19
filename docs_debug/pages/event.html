@@ -1,0 +1,158 @@
+<div id="event" class="page hidden divided" back="#/events">
+  
+  <section class="workshop info spotlight style2 color2 orient-left content-align-left image-position-center">
+    <div class="content">
+      <h2 class="event-name"></h2>
+      <p class="event-description"></p>
+    </div>
+    <div class="image">
+      <img class="event-img" />
+    </div>
+  </section>
+  
+  <section class="workshop organization spotlight style1 color6 orient-right content-align-left">
+    <div class="content">
+      <ul class="alt">
+        <li><strong>Termin:</strong> <span class="event-date"></span></li>
+        <li><strong>Level:</strong> <span class="event-level"></span></li>
+        <li><strong>Treffpunkt:</strong> <span class="event-meeting"></span></li>
+        <li><strong>Teilnehmer:</strong> <span class="event-participants"></span></li>
+        <li><strong>Preis:</strong> <span class="event-price"></span></li>
+        <li class="erlebniscard-only"><strong>Erlebniscard: </strong>Tickets für die Teilnahme ohne <i>Erlebnis Card</i> können nur in den Tourismusinformationen der Region erworben werden. Weitere Informationen zur <i>Erlebnis Card</i> finden Sie hier: <a href="https://www.region-villach.at/de/angebote/erlebnis-card-urlaubserlebnisse-im-herzen-3074815.html" target="_blank">https://www.region-villach.at/de/angebote/erlebnis-card-urlaubserlebnisse-im-herzen-3074815.html</a></li>
+      </ul>
+    </div>
+    <div class="image map" lat="46.56681976613046" lng="13.920010328292847" zoom="12">
+      <div class="marker draggable" lat="46.56681976613046" lng="13.920010328292847"></div>
+    </div>
+  </section>
+  
+  
+  <section class="workshop requirements spotlight style1 color2 orient-right content-align-left">
+    <div class="content">
+      <h3>Anforderungen</h3>
+      <p class="event-requirements-text"></p>
+      <ul class="event-requirements"></ul>
+    </div>
+  </section>
+
+  <section class="registrations see-regs-only wrapper style2 color5">
+    <div class="inner">
+      <h3>Anmeldungen</h3>
+      <div class="table-wrapper reg-table">
+        <table class="alt">
+          <thead>
+            <th>Anmeldung</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Alter</th>
+            <th>Unterkunft</th>
+            <th></th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="registration reg-only wrapper style2 color5">
+    <div class="inner">
+      <h3>Anmeldung</h3>
+      
+      <!-- registration form -->
+      <form>
+        <!-- remaining participants -->
+        <div class="field">
+          <label>Verbleibende Plätze: <span id="reg-remaining">0</span></label>
+          <div class="no-regs-remaining error">Dieses Event ist leider bereits ausgebucht. Sie können sich dennoch anmelden. Sollte ein Platz frei werden kontaktieren wir Sie telefonisch.</div>
+        </div>
+
+        <!-- name -->
+        <div class="field">
+          <label for="reg-name">Name</label>
+          <input type="text" name="reg-name" id="reg-name" placeholder="Vor- und Nachname des Teilnehmers" />
+        </div>
+        <!-- email -->
+        <div class="field">
+          <label for="reg-email">Email</label>
+          <input type="email" name="reg-email" id="reg-email" placeholder="Gültige Email Adresse des Teilnehmers" />
+        </div>
+        <!-- phone -->
+        <div class="field">
+          <label for="reg-phone">Telefon</label>
+          <input type="tel" name="reg-phone" id="reg-phone" placeholder="Gültige Telefonnr. für evtl. Rückfragen/Planänderungen" />
+        </div>
+        <!-- age -->
+        <div class="field">
+          <label for="reg-age">Alter</label>
+          <input type="number" name="reg-age" id="reg-age" value="18" />
+        </div>
+        <!-- accommodation -->
+        <div class="field">
+          <label for="reg-accommodation">Unterkunft</label>
+          <input type="text" name="reg-accommodation" id="reg-accommodation" placeholder="Name Ihrer Unterkunft (leer falls Sie nirgends untergebracht sind)" />
+        </div>
+        <!-- agreement -->
+        <div class="field">
+          <input type="checkbox" name="reg-agreement" id="reg-agreement">
+          <label for="reg-agreement">Diese Anmeldung ist unverbindlich und dient nur der Organisation durch Alpbrothers. Es entstehen keinerlei Verpflichtungen beiderseits. Ich erkläre mich jedoch damit einverstanden dass meine Daten zum Zweck der Anmeldung/Organisation von Alpbrothers gespeichert werden.</label>
+        </div>
+        <!-- google recaptcha -->
+        <script>
+          function onRecaptcha(token) {
+            var recaptcha=$oewr.$pages.get("event").recaptcha;
+            recaptcha.resolve(token);
+          }
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <div id="recaptcha" class="g-recaptcha"
+          data-sitekey="6LdVgFYUAAAAABSoSjfPM5HAXncJh0N6XCyyVB7O"
+          data-callback="onRecaptcha"
+          data-size="invisible"></div>
+
+        <!-- submit -->
+        <ul class="actions">
+          <li><input type="submit" name="reg-submit" id="reg-submit" value="Jetzt Anmelden"></li>
+        </ul>
+      </form>
+      <p class="msg"></p>
+    </div>
+  </section>
+
+  <section class="further-reg wrapper style2 color5">
+    <div class="inner">
+      <h3 class="no-reg-only">Anmeldung</h3>
+      <!-- further info -->
+      <p class="reg-only">Für weitere Informationen oder Fragen wenden Sie sich bitte per Email oder Telefon an uns.</p>
+      <!-- info when reg is not enabled -->
+      <p class="no-reg-only">Um sich für dieses Event anzumelden wenden Sie sich bitte per Email, Telefon oder Whatsapp an uns.</p>
+      <!-- contact info -->
+      <p>
+        Österreichische Wasserrettung<br />
+        Landesverband Kärnten<br />
+        Einsatzstelle 1/8 Faaker See<br />
+        <a href="tel:+4342544744" title="Telefonnr."><span class="icon style1 fa-phone"></span> +43 4254 4744</a><br />
+        <a href="mailto:faak@oewr-kaernten.at" title="Email senden"><span class="icon style1 fa-envelope"></span> faak@oewr-kaernten.at</a>
+      </p>
+    </div>
+  </section>
+    
+  <!-- partner -->
+<section id="partner" class="partner wrapper style1 color5 align-center">
+  <div class="inner">
+    <div class="items partner style3 small onscroll-fade-in">
+      <section class="a1">
+        <a href="http://www.a1-tankstellen.at/tankstellensuche/details/tankstelle-811" class="inner" target="_blank"></a>
+      </section>
+      <section class="raika">
+        <a href="https://www.raiffeisen.at/finkenstein-faakersee" class="inner" target="_blank"></a>
+      </section>
+      <section class="regionvillach">
+        <a href="https://www.region-villach.at/" class="inner" target="_blank"></a>
+      </section>
+      <section class="alpbrothers">
+        <a href="https://www.alpbrothers.at/" class="inner" target="_blank"></a>
+      </section>
+    </div>
+  </div>
+</section>

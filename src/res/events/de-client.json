@@ -1,0 +1,18 @@
+{
+  "client":
+  {
+    "events":
+    {  
+      "title": "OEWR - Events",
+      "level": "Level",
+      "dateFormat": "dddd D. MMMM YYYY<br />HH:mm - HH:mm [Uhr]",
+      "multiDayFormat": "dd D. - dd D. MMMM YYYY",
+      "fromFormat": "dddd D. MMMM",
+      "erlebniscardPrice": "kostenlos mit Erlebniscard",
+      "imgPath": "img/events/",
+      "details": "Details & Anmeldung",
+      "edit": "Bearbeiten",
+      "eventUrl": "#/event?id={0}"
+    }
+  }
+}

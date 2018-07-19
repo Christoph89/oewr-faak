@@ -1,0 +1,23 @@
+<!-- quote1 -->
+<section id="quote1" class="spotlight quote style1 color5 invert content-align-center image-position-center onscroll-content-fade-right">
+  <div class="content">
+    <h3><i>{{ res.quote1.text }}</i></h3>
+    <h4>{{ res.quote1.author }}</h4>
+  </div>
+</section>
+
+<!-- education -->
+<section id="education" href="{{ res.education.href }}" class="spotlight style1 color2 orient-right content-align-left image-position-center onscroll-content-fade-left onscroll-image-fade-in">
+  <div class="content">
+    <h2>{{ res.education.title }}</h2>
+    <p>{{ res.education.text | safe }}</p>
+    <ul class="actions">
+      <li><a href="{{ res.education.goUrl }}" class="button icon fa-angle-down">{{ res.education.go }}</a></li>
+      <li><a href="{{ res.education.coursesUrl }}" target="_blank" class="button special icon fa-angle-right">{{ res.education.courses }}</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ root }}img/banner-education.jpg" alt="{{ res.about.img }}" />
+    <span class="label white bottom right">{{ res.education.imgLabel | safe }}</span>
+  </div>
+</section>

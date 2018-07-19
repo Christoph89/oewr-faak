@@ -1,0 +1,62 @@
+{
+  "client":
+  {
+    "common":
+    {
+      "cancel": "Abbrechen"
+    },
+    "level":
+    {
+      "Everyone": "Jedermann",
+      "Beginner": "Einsteiger",
+      "Advanced": "Fortgeschritten",
+      "All": "Alle"
+    },
+    "eventTypes":
+    {
+      "TechniqueTraining": { "description": "Technik Training", "icon": "fa-cogs", "offer": true },
+      "GuidedTour": { "description": "Geführte Tour", "icon": "fa-bicycle", "offer": true },
+      "EBikeTour": { "description": "E-Bike Tour", "icon": "fa-bolt" },
+      "Camp": { "description": "Camp", "icon": "fa-home" },
+      "MechanicalTraining": { "description": "Schrauberkurs", "icon": "fa-wrench" }
+    },
+    "eventStatus":
+    {
+      "TakesPlace": "Findet statt",
+      "InProgress": "In Bearbeitung",
+      "Canceled": "Abgesagt",
+      "Deleted": "Gelöscht"
+    },
+    "requirements":
+    {
+      "TechniqueTraining":
+      {
+        "text": "Unser Trail Workshop ist <b>für Einsteiger und Interessierte</b>, sowie für jeden der seine <b>Technik am Mountainbike verbessern</b> möchte geeignet.",
+        "0": "Mindestalter <b>12 Jahre</b> (darunter nur mit Begleitung eines Erziehungsberechtigten)",
+        "1": "<b>Unter 18 Jahren</b> benötigst du die <b>Einverständnis deines Erziehungsberechtigten</b>",
+        "2": "Du musst <b>gesund</b> sein",
+        "3": "Ein <b>geländefähiges Mountainike</b> = Hardtail oder Fully ab rund 100mm Federweg (nicht mitgenommen werden Räder mit Starrgabel, Straßen-/Renn-/Triathlonräder, City- und Trekking Bikes sowie BMX und Dirt Bikes)",
+        "4": "Idealerweise <b>Fahrradbekleidung</b> + Regenbekleidung + Rucksack",
+        "5": "<b>Fahrrad Helm und Handschuhe</b> sind Pflicht! (Halbschalenhelm genügt)",
+        "6": "<b>Passendes Schuhwerk</b>. Idealerweise Mountainbike- oder Sport Schuhe",
+        "7": "Genügend Getränke/Verpflegung für 3-4 Stunden",
+        "8": "<b>Lernbereitschaft</b> und die Liebe zum Mountainbiken",
+        "9": "Mountainbike + Ausrüstung kann auf Anfrage ausgeliehen werden."
+      },
+      "GuidedTour":
+      {
+        "text": "",
+        "0": "Mindestalter <b>12 Jahre</b> (darunter nur mit Begleitung eines Erziehungsberechtigten)",
+        "1": "<b>Unter 18 Jahren</b> benötigst du die <b>Einverständnis deines Erziehungsberechtigten</b>",
+        "2": "Du musst <b>gesund</b> sein",
+        "3": "Ein <b>geländefähiges Mountainike</b> = Hardtail oder Fully ab rund 100mm Federweg (nicht mitgenommen werden Räder mit Starrgabel, Straßen-/Renn-/Triathlonräder, City- und Trekking Bikes sowie BMX und Dirt Bikes)",
+        "4": "Idealerweise <b>Fahrradbekleidung</b> + Regenbekleidung + Rucksack",
+        "5": "<b>Fahrrad Helm und Handschuhe</b> sind Pflicht! (Halbschalenhelm genügt)",
+        "6": "<b>Passendes Schuhwerk</b>. Idealerweise Mountainbike- oder Sport Schuhe",
+        "7": "Genügend Getränke/Verpflegung für 3-4 Stunden",
+        "8": "<b>Lernbereitschaft</b> und die Liebe zum Mountainbiken",
+        "9": "Mountainbike + Ausrüstung kann auf Anfrage ausgeliehen werden."
+      }
+    }
+  }
+}

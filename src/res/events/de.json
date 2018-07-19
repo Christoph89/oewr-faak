@@ -1,0 +1,14 @@
+{
+  "events":
+  {
+    "from": "Von",
+    "to": "Bis",
+    "type": "Typ",
+    "all": "Alle",
+    "level": "Level",
+    "beginner": "Einsteiger",
+    "advanced": "Fortgeschritten",
+    "addEvent": "Event hinzufügen",
+    "addEventUrl": "#/event/add"
+  }
+}

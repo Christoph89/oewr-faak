@@ -1,0 +1,89 @@
+<div id="blauesband" class="page hidden divided" back="#/news">
+  {% set $res=res.blauesband %}
+  <section class="info spotlight style2 color2 orient-left content-align-left image-position-center">
+    <div class="content">
+      <h2 class="bb-header">{{ $res.header }}</h2>
+      <p class="bb-descr">{{ $res.description | safe }}</p>
+    </div>
+    <div class="image">
+      <img  src="{{ root }}img/blauesband/banner.jpg" alt="{{ $res.imgAlt }}" />
+    </div>
+  </section>
+  
+  <section class="organization spotlight style1 color6 orient-right content-align-left">
+    <div class="content">
+      <ul class="alt">
+        {% for key, item in $res.organization %}
+        <li><strong>{{ item.title }}:</strong> <span class="bb-{{ key }}">{{ item.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="image map" lat="46.570124186195635" lng="13.922241926193237" zoom="15">
+      <div class="marker" lat="46.57400612035409" lng="13.921326003396644" title="{{ $res.start }}" label="{{ $res.start }}"></div>
+      <div class="marker" lat="46.5676686223258" lng="13.920899532163276" title="{{ $res.finish }}" label="{{ $res.finish }}"></div>
+      <div class="path" color="#FF0000" opacity="1.0" weight="2.0">
+        <div lat="46.57400612035409" lng="13.921326003396644"></div>
+        <div lat="46.5676686223258" lng="13.920899532163276"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="further spotlight style1 color6 orient-left content-align-left">
+    <div class="content">
+      <ul class="alt">
+        {% for key, item in $res.further %}
+        <li><strong>{{ item.title }}:</strong> <span class="bb-{{ key }}">{{ item.text }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="image">
+      <img  src="{{ root }}img/blauesband/team.jpg" alt="{{ $res.img2Alt }}" />
+    </div>
+  </section>
+  
+  
+  <section class="workshop classes spotlight style1 color2 orient-right content-align-left">
+    <div class="content">
+      <h3>{{ $res.classes }}</h3>
+      <div class="table-wrapper">
+        <table class="alt">
+          <thead>
+            <th>{{ $res.class }}</th>
+            <th>{{ $res.yearFrom }}</th>
+            <th>{{ $res.yearTo }}</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="rules spotlight style1 color6 orient-left content-align-left">
+    <div class="content">
+      <h3>{{ $res.rulesTitle }}</h3>
+      <ol class="alt">
+        {% for key, item in $res.rules %}
+        <li>
+          <strong>{{ item.title }}:</strong> <span class="bb-{{ key }}">{{ item.text | safe }}</span>
+          {% if item.items %}
+          <ul>
+            {% for sub in item.items %}
+            <li>{{ sub | safe }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <!-- poster -->
+  <section class="wrapper poster style1 color5 align-center">
+    <div class="inner">
+      <img class="bb-poster" alt="{{ $res.posterAlt }}" />
+    </div>
+  </section>
+
+  {% include "html/parts/partner.html" %}
+  </div>  

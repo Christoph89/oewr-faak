@@ -1,0 +1,9 @@
+{
+  "signin":
+  {
+    "header": "Login",
+    "email": "Email",
+    "pwd": "Passswort",
+    "submit": "Jetzt einloggen"
+  }
+}

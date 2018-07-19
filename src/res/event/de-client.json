@@ -1,0 +1,56 @@
+{
+  "client":
+  {
+    "event":
+    {
+      "title": "OEWR - Event",
+      "edit":
+      {
+        "title": "OEWR - Event bearbeiten",
+        "dateFormat": "dddd D. MMMM YYYY HH:mm",
+        "repeat": "In einer Woche wiederholen",
+        "occurrenceUrl": "#/event/edit?id={0}"
+      },
+      "add":
+      {
+        "title": "OEWR - Event hinzufügen"
+      },
+      "details":
+      {
+        "date": "{0}",
+        "dateFormat": "dddd D. MMMM YYYY HH:mm - HH:mm [Uhr]",
+        "level": "{0} (siehe Anforderungen)",
+        "meeting": "{0} {1}. Für mehr Zeit am Trail, bitten wir um <b>Pünktlichkeit</b>.",
+        "meetingTimeFormat": "HH:mm [Uhr]",
+        "participants": "Da wir um <b>Qualität</b> bemüht sind und auf unsere Teilnehmer eingehen möchten ist die <b>Teilnehmerzahl auf {0} Personen begrenzt</b>.",
+        "price": "Der Workshop kostet {0} EUR pro Teilnehmer",
+        "erlebniscardPrice": "Der Workshop ist <b>kostenlos mit <i>Erlebniscard</i></b>. Für die Teilnahme ohne <i>Erlebniscard</i> gibt es Tickets um 15 EUR in den Tourismusinformationen der Region. Der Regulärpreis ohne <i>Erlebniscard</i>  beträgt <b>35 EUR</b>.",
+        "regDateFormat": "DD.MM.YYYY HH:mm",
+        "regBy": "Anmeldung durch {0}",
+        "regSuccess": "Anmeldung erfolgreich! Eine Bestätigung wurde an deine Email Adresse gesendet.",
+        "regFail": "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut. Sollte es dennoch nicht funktionieren, wenden Sie sich bitte per Email oder Telefon an uns!",
+        "deleteReg": "Anmeldung löschen",
+        "cancelReg": "Anmeldung stornieren",
+        "reactivate": "Anmeldung reaktivieren"
+      },
+      "deleteRegConfirm":
+      {
+        "title": "Anmeldung löschen?",
+        "text": "Wollen sie die Anmeldung für {name} wirklich löschen?",
+        "ok": "#/cmd/delete-registration?regId={regId}&eventId={eventId}&created={created}&createdBy={createdBy}&email={email}&phone={phone}&name={name}&goto={goto}&force={force}&status={status}"
+      },
+      "cancelRegConfirm":
+      {
+        "title": "Anmeldung stornieren?",
+        "text": "Wollen sie die Anmeldung für {name} wirklich stornieren?",
+        "ok": "#/cmd/delete-registration?regId={regId}&eventId={eventId}&created={created}&createdBy={createdBy}&email={email}&phone={phone}&name={name}&goto={goto}&force={force}&status={status}"
+      },
+      "reactivateRegConfirm":
+      {
+        "title": "Anmeldung reaktivieren?",
+        "text": "Wollen sie die Anmeldung für {name} wirklich reaktivieren?",
+        "ok": "#/cmd/delete-registration?regId={regId}&eventId={eventId}&created={created}&createdBy={createdBy}&email={email}&phone={phone}&name={name}&goto={goto}&force={force}&status={status}"
+      }
+    }
+  }
+}

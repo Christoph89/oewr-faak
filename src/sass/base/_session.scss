@@ -1,0 +1,24 @@
+html.authenticated {
+  .noauth-only {
+    display: none !important;
+  }
+}
+
+html.unauthenticated {
+  .auth-only {
+    display: none !important;
+  }
+}
+
+html.role-public,
+html.unauthenticated {
+  .role-admin, .role-partner {
+    display: none !important;
+  }
+}
+
+html.role-partner {
+  .role-admin {
+    display: none !important;
+  }
+}

@@ -1,0 +1,14 @@
+<!-- about -->
+<section id="about" href="{{ res.about.href }}" class="spotlight style1 color2 orient-left content-align-left image-position-right onscroll-content-fade-right onscroll-image-fade-in">
+  <div class="content">
+    <h1>{{ res.about.title }}</h1>
+    <p>{{ res.about.text | safe }}</p>
+    <ul class="actions vertical">
+      <li><a href="{{ res.about.moreUrl }}" class="button icon fa-angle-down" anchor="middle">{{ res.about.more }}</a></li>
+    </ul>
+  </div>
+  <div class="image">
+    <img src="{{ root }}img/banner-about.jpg" alt="{{ res.about.img }}" />
+    <span class="label bottom right">{{ res.about.imgLabel | safe }}</span>
+  </div>
+</section>

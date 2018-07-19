@@ -1,0 +1,11 @@
+<!-- impressions -->
+<section id="impressions" href="{{ res.impressions.href }}" class="wrapper style1 color5 align-center">
+  <div class="gallery style1 medium lightbox onload-content-fade-in">
+    {% for keyword in res.impressions.keywords %}
+      <article>
+        <a href="{{ root }}img/gallery/fulls/{{ loop.index }}.jpg" class="image"><img src="{{ root }}img/gallery/thumbs/{{ loop.index }}.jpg" alt="{{ keyword }}" /></a>
+        <div class="caption"><h3>{{ keyword }}</h3></div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

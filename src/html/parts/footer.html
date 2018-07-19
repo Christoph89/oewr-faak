@@ -1,0 +1,14 @@
+<footer id="footer" class="spotlight style5 color4 orient-center content-align-center fullscreen onload-content-fade-in">
+  <div class="inner">
+    <img class="logo svg" src="{{ root }}img/oewr-logo.svg" alt="{{ res.description }}" />
+    <ul class="icons">
+      {% for item in res.media %}
+      <li><a href="{{ item.url }}" target="{{ item.target }}" class="icon style2 {{ item.icon }}" title="{{ item.text }}"><span class="label">{{ item.text }}</span></a></li>  
+      {% endfor %}
+    </ul>
+    <p>
+      <a href="{{ res.impressumUrl }}" speed="immediate">{{ res.impressum }}</a><br />
+      {{ res.copyright | safe }}
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,11 @@
+{% extends "html/tpl.html" %}
+
+{% block content %}
+  {% set sections=["welcome", "about", "education", "scopes", "news", "impressions", "contact", "partner"] %}
+  {% for section in sections %}
+    {% include "html/parts/"+section+".html" %}
+  {% endfor %}
+{% endblock %}
+
+{% block outercontent %}
+{% endblock %}

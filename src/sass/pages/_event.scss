@@ -1,0 +1,57 @@
+#event.page
+{
+  // erlebniscard
+  .erlebniscard-only {
+    display: none;
+  }
+  &.erlebniscard {
+    .erlebniscard-only {
+      display: inherit;
+    }
+  }
+
+  // registration
+  .reg-only { display: none; }
+  &.allow-reg {
+    .reg-only { display: inherit; }
+    .no-reg-only { display: none; }
+  }
+
+  // remaining registrations
+  .regs-remaining { display: none; }
+  &.regs-remaining {
+    .regs-remaining { display: inherit; }
+    .no-regs-remaining { display: none; }
+  }
+
+  .see-regs-only { display: none; }
+  &.see-regs {
+    .see-regs-only { display: inherit; }
+    .see-no-regs-only { display: none; }
+  }
+
+  .event-requirements-text {
+    margin-bottom: 1rem;
+  }
+
+  section.registrations,
+  section.registration {
+    padding-bottom: 0;
+  }
+
+  section.partner {
+    .inner {
+      padding-top: 0.1rem;
+    }
+  }
+
+  section.registrations {
+    table {
+      font-size: 0.8rem;
+
+      tr.canceled {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

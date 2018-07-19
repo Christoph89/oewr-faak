@@ -1,0 +1,76 @@
+{
+  "event":
+  {
+    "edit":
+    {
+      "title": "Event bearbeiten",
+      "type": "Typ",
+      "status": "Status",
+      "level": "Level",
+      "name": "Name",
+      "namePlaceholderDE": "Event Name auf Deutsch",
+      "namePlaceholderEN": "Event name in english",
+      "shortDescr": "Kurzbeschreibung",
+      "shortDescrPlaceholderDE": "Kurze Event Beschreibung auf Deutsch",
+      "shortDescrPlaceholderEN": "Short event description in English",
+      "descr": "Beschreibung",
+      "descrPlaceholderDE": "Event Beschreibung auf Deutsch",
+      "descrPlaceholderEN": "Event description in English",
+      "requirements": "Anforderungen",
+      "requirementsPlaceholderDE": "Event Anforderungen auf Deutsch (getrennt durch Zeilenumbruch, verwende ! als 1. Zeile um alle Anforderungen zu überschreiben)",
+      "requirementsPlaceholderEN": "Event requirements in English (separated by new lines, use ! als 1st line to overwrite all requirements",
+      "price": "Preis",
+      "erlebniscard": "Erlebniscard",
+      "maxParticipants": "Maximale Teilnehmer",
+      "registration": "Anmeldung",
+      "everyone": "Alle",
+      "admins": "Admins",
+      "partner": "Partner und Admins",
+      "noOne": "Nur via Email",
+      "img": "Foto",
+      "dates": "Termine",
+      "save": "Termin speichern",
+      "delete": "Termin löschen",
+      "editSeries": "Serie bearbeiten",
+      "from": "Von",
+      "to": "Bis",
+      "meetingPoint": "Treffpunkt",
+      "meetingPointDescription": "Beschreibung Treffpunkt"
+    },
+    "add":
+    {
+      "title": "Event hinzufügen"
+    },
+    "details":
+    {
+      "date": "Termin",
+      "level": "Level",
+      "meeting": "Treffpunkt",
+      "participants": "Teilnehmer",
+      "price": "Preis",
+      "erlebniscard": "Erlebniscard",
+      "erlebniscardInfo": "Tickets für die Teilnahme ohne <i>Erlebnis Card</i> können nur in den Tourismusinformationen der Region erworben werden. Weitere Informationen zur <i>Erlebnis Card</i> finden Sie hier: <a href=\"https://www.region-villach.at/de/angebote/erlebnis-card-urlaubserlebnisse-im-herzen-3074815.html\" target=\"_blank\">https://www.region-villach.at/de/angebote/erlebnis-card-urlaubserlebnisse-im-herzen-3074815.html</a>",
+      "requirements": "Anforderungen",
+      "registration": "Anmeldung",
+      "registrations": "Anmeldungen",
+      "noreginfo": "Um sich für dieses Event anzumelden wenden Sie sich bitte per Email, Telefon oder Whatsapp an uns.",
+      "inquire": "Jetzt Anfragen",
+      "inquireUrl": "mailto:office@alpbrothers.at",
+      "created": "Anmeldung",
+      "name": "Name",
+      "nameTip": "Vor- und Nachname des Teilnehmers",
+      "email": "Email",
+      "emailTip": "Gültige Email Adresse des Teilnehmers",
+      "phone": "Telefon",
+      "phoneTip": "Gültige Telefonnr. für evtl. Rückfragen/Planänderungen",
+      "age": "Alter",
+      "accommodation": "Unterkunft",
+      "accommodationTip": "Name Ihrer Unterkunft (leer falls Sie nirgends untergebracht sind)",
+      "agreement": "Diese Anmeldung ist unverbindlich und dient nur der Organisation durch Alpbrothers. Es entstehen keinerlei Verpflichtungen beiderseits. Ich erkläre mich jedoch damit einverstanden dass meine Daten zum Zweck der Anmeldung/Organisation von Alpbrothers gespeichert werden.",
+      "furtherInfo": "Für weitere Informationen oder Fragen wenden Sie sich bitte per Email oder Telefon an uns.",
+      "submit": "Jetzt Anmelden",
+      "remaining": "Verbleibende Plätze:",
+      "noRegsRemaining": "Dieses Event ist leider bereits ausgebucht. Sie können sich dennoch anmelden. Sollte ein Platz frei werden kontaktieren wir Sie telefonisch."
+    }
+  }
+}

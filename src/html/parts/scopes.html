@@ -1,0 +1,26 @@
+<!-- quote2 -->
+<section id="quote2" class="spotlight quote style1 color5 invert content-align-center image-position-center onscroll-content-fade-right">
+  <div class="content">
+    <h3><i>{{ res.quote2.text }}</i></h3>
+    <h4>{{ res.quote2.author }}</h4>
+  </div>
+</section>
+
+<!-- scopes -->
+<section id="scopes" href="{{ res.scopes.href }}" class="wrapper style1 color2 align-center">
+  <div class="inner">
+    <h2>{{ res.scopes.title }}</h2>
+    <div class="items style1 big onscroll-fade-in">
+      {% for scope in res.scopes.scopes %}
+      <section>
+        <span class="icon style2 major {{ scope.icon  }}"></span>
+        <h3>{{ scope.title }}</h3>
+        <p>{{ scope.text | safe }}</p>
+      </section>
+      {% endfor %}
+    </div>
+    <ul class="actions">
+      <li><a href="{{ res.scopes.goUrl }}" class="button icon fa-angle-down">{{ res.scopes.go }}</a></li>
+    </ul>
+  </div>
+</section>

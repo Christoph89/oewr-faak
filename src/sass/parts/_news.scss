@@ -1,0 +1,27 @@
+#news {
+  .no-event-info {
+    display: none;
+  }
+
+  .table-wrapper {
+    margin-bottom: 0px;
+  }
+
+  &.no-events {
+    .table-wrapper {
+      display: none;
+    }
+    .no-event-info {
+      display: block;
+    }
+  }
+
+  tr.show-all {
+    td { padding: 0.5rem; }
+    .button 
+    { 
+      vertical-align: middle; 
+    }
+  }
+}
+

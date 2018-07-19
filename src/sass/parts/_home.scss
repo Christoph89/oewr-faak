@@ -1,0 +1,23 @@
+#home {
+  .logo {
+    width: 15rem;
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .title {
+    color: _palette(title);
+  }
+
+  .emergency {
+    color: _palette(emergency);
+  }
+
+  .actions {
+    margin-top: 1em;
+  }
+}

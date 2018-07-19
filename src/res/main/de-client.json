@@ -1,0 +1,13 @@
+{
+  "client":
+  {
+    "main":
+    {
+      "title": "Wasserrettung Faaker See"
+    },
+    "news":
+    {
+      "dateFormat": "dd DD.MM.YYYY HH:mm [Uhr]"
+    }
+  }
+}

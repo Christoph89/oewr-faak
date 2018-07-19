@@ -1,0 +1,30 @@
+<!-- quote3 -->
+<section id="quote3" class="spotlight quote style1 color5 invert content-align-center image-position-center onscroll-content-fade-right">
+  <div class="content">
+    <h3><i>{{ res.quote3.text | safe }}</i></h3>
+    <h4>{{ res.quote3.author }}</h4>
+  </div>
+</section>
+
+<!-- news -->
+<section id="news" href="{{ res.news.href }}" class="wrapper style1 color2 align-center no-events-off border-top">
+  <div class="inner">
+    <h2>{{ res.news.title }}</h2>
+      <!-- blaues band
+      <img id="blauesband" src="{{ root }}img/blaues-band-2018.jpg" alt="Blaues Band 2018" style="width: 50%;" /> -->
+
+    <div class="items style1 big onscroll-fade-in">
+      {% for nw in res.news.news %}
+      <section>
+        <span class="icon style2 major {{ nw.icon  }}"></span>
+        <h3>{{ nw.title }}</h3>
+        <p>{{ nw.text | safe }}</p>
+      </section>
+      {% endfor %}
+    </div>
+    
+    <ul class="actions">
+      <li><a href="{{ res.news.goUrl }}" class="button icon fa-angle-down">{{ res.news.go }}</a></li>
+    </ul>
+  </div>
+</section>

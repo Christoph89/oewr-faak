@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "docs": true,
+    "docs_debug": true,
+    "LICENSE.txt": true,
+    ".editorconfig": true,
+    "*.sublime-workspace": true,
+    "node_modules": true,
+    ".DS_Store": true,
+    ".node": true
+  }
+}

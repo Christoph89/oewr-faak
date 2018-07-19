@@ -1,0 +1,116 @@
+#menu-btns {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+
+  li {
+    padding: 0.3rem 0 0 0;
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  .icon:before {
+    background-color: _palette(menu-btn);
+  }
+}
+
+#menu-btn {
+  .page.menu-opened:before {
+    background-color: _palette(menu-btn-opened);
+  }
+}
+
+#lang-btn {
+  &:before {
+    font-family: _font(family);
+    @include vendor('transition', (
+      'opacity #{_duration(transition)} ease-in-out',
+      'transform #{_duration(transition)} ease-in-out'
+    ));
+  }
+
+  &.hidden {
+    pointer-events: none;
+    
+    &:before {
+      opacity: 0;
+      @include vendor('transform', 'translateY(-1rem)');
+    }
+  }
+
+  &.en:before {
+    content: "DE";
+  }
+  &.de:before {
+    content: "EN";
+  }
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: _palette(menu-bg) !important;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  @include vendor('transition', (
+    'opacity #{_duration(menu)} ease-in-out'
+  ));
+
+  &.opened {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .content {
+    background-color: _palette(menu-inner-bg) !important;
+    border: 1px solid #fff;
+    @include breakpoint(medium) {
+      max-width: 65%;
+    }
+    @include breakpoint(small) {
+      max-width: 80%;
+    }
+    @include breakpoint(xsmall) {
+      max-width: 100%;
+    }
+  }
+
+  ul.actions {
+    li {
+      padding: 0.3rem 0 0 0;
+
+      .button.wide {
+        min-width: 15em;
+      }
+    }
+
+    li.media a {
+      margin: 0 0.3rem !important;
+    }
+  }
+}
+
+#back-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
+  @include vendor('transition', (
+    'opacity #{_duration(transition)} ease-in-out',
+    'transform #{_duration(transition)} ease-in-out'
+  ));
+  &.hidden {
+    pointer-events: none;
+    opacity: 0;
+    @include vendor('transform', 'translateY(-1rem)');
+  }
+  &:before {
+    background-color: _palette(menu-btn);
+  }
+}

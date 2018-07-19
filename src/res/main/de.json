@@ -1,0 +1,142 @@
+{
+  "menu": 
+  [
+    { "url": "#/home", "text": "Home", "icon": "fa-home" },
+    { "url": "#/about", "text": "About", "icon": "fa-id-card" },
+    { "url": "#/aufgaben", "text": "Aufgaben", "icon": "fa-check-square" },
+    { "url": "#/news", "text": "News", "icon": "fa-comment" },
+    { "url": "#/impressionen", "text": "Impressionen", "icon": "fa-camera" },
+    { "url": "#/kontakt", "text": "Kontakt", "icon": "fa-phone" }
+  ],
+
+  "menuBtn":
+  {
+    "title": "Menü",
+    "back": "Zurück"
+  },
+
+  "home":
+  {
+    "title": "Einsatzstelle I/8 Faaker See",
+    "emergency": "NOTRUF 130",
+    "go": "Los geht's",
+    "goUrl": "#/about"
+  },
+
+  "about":
+  {
+    "href": "#/about",
+    "title": "Österreichische Wasserrettung",
+    "text": "Die <b>Österreichische Wasserrettung</b> ist ein gemeinnütziger Verein, der es sich primär zur Aufgabe gemacht hat, Menschen vor dem Ertrinkungstod zu bewahren. <b>Freiwillige, ehrenamtlich tätige Helfer</b> riskieren bei den oft nicht ungefährlichen Rettungseinsätzen ihr eigenes Leben, um in Not Geratenen zu helfen. Ihre Aufgabenbereiche erstrecken sich dabei von <b>Taucheinsätzen, Bootsbergungen, Hoch- und Fließwassereinsätzen</b> über <b>Bäder- und Veranstaltungsüberwachung</b>, bis hin zur Schulung und <b>Ausbildung der Bevölkerung</b>.",
+    "more": "Mehr erfahren",
+    "moreUrl": "#/ausbildung",
+    "img": "Mountainbiker am Gipfel des Schwarzkogels nähe dem Faaker See.",
+    "imgLabel": "&copy; Christoph Oberschneider"
+  },
+
+  "quote1":
+  {
+    "text": "Jederzeit einsatzfähig, jederzeit einsatzbereit kostbares Menschenleben vor dem nassen Tod zu retten! ",
+    "author": "Parole der ÖWR"
+  },
+
+  "education":
+  {
+    "href": "#/ausbildung",
+    "title": "Ausbildung der Bevölkerung",
+    "text": "Die ÖWR versucht aber nicht nur in Notfällen zu helfen. Durch <b>Schulung und Information</b> der Bevölkerung soll die Unfall- und Ertrinkungsgefahr beim Baden verringert werden. Daher werden eine <b>Vielfalt an Schwimmkursen</b> angeboten, um Kindern und Nichtschwimmern das Schwimmen zu lehren. Das Angebot dieser Kurse reicht vom Anfängerkurs bis hin zur Rettungsschwimm- bzw. Tauchausbildung. Das Motto:  <b>\"Jeder Nichtschwimmer ein Schwimmer - jeder Schwimmer ein Rettungsschwimmer!\"</b> bezeichnet ein ganz wichtiges Ziel der ÖWR, da auch dann an Orten Hilfe geleistet werden kann, an denen die ÖWR nicht zur Stelle ist.",
+    "goUrl": "#/aufgaben",
+    "go": "Unsere Aufgabenbereiche",
+    "coursesUrl": "http://oewr-faak.at/courseadmin",
+    "courses": "Zu unseren Kursen",
+    "img": "Mountainbiker auf der Alm.",
+    "imgLabel": "&copy; Lukas Pilz"
+  },
+
+  "quote2":
+  {
+    "text": "\"Jeder Nichtschwimmer ein Schwimmer - Jeder Schwimmer ein Rettungsschwimmer!\"",
+    "author": "Leitsatz der ÖWR"
+  },
+
+  "scopes":
+  {
+    "href": "#/aufgaben",
+    "title": "Unsere Aufgabenbereiche",
+    "scopes":
+    [
+      { "title": "Schwimmen", "text": "<i><b>\"Jeder Nichtschwimmer ein Schwimmer\"</b></i> - Durch die Ausbildung von Kindern und Jugendlichen versucht die ÖWR <b>präventiv Badeunfälle zu vermeiden</b>, und neue <b>Rettungsschwimmanwärter zu finden</b>. Eine gute Schwimmausbildung ist somit das <b>Fundament der ÖWR</b>." },
+      { "title": "Rettungsschwimmen", "text": "<b><i>\"Jeder Schwimmer ein Rettungsschwimmer\"</i></b> - Die Rettungsschwimmausbildung ist die Basis am Beginn eines jeden Rettungsschwimmer-Lebens. Durch das Erlernen von <b>Hilfs- und Rettungstechniken, sowie Erste Hilfe</b> werden aus Schwimmern aktive Lebensretter." },
+      { "title": "Einsatzwesen", "text": "Eine fundierte Rettungsschwimmausbildung ist jedoch nur die <b>Basis</b> auf die es auszubauen gilt. Danach können zahlreiche weitere Module und Techniken wie <b>Schwimmtechnik, ABC Schnorcheln, Funk, Einsatzabläufe</b> uvm. absolivert und erlernt werden, um somit zu einer <b>verlässlichen Einsatzkraft</b> zu werden." },
+      { "title": "Tauchen", "text": "Durch die Ausbildung von <b>hochqualifizierten Rettungstauchern</b> schafft die Wasserrettung die Möglichkeit auch <b>Unterwasser jederzeit einsatzfähig</b> zu sein. Vom <b>Grundtauchschein bis hin zum Tauchlehrer</b> werden dabei verschiedenste Stufen von Einsatztauchern ausgebildet." },
+      { "title": "Nautik", "text": "Um die <b>Schlagkraft und Beweglichkeit am Wasser</b> zu erhöhen werden bei der ÖWR auch <b>Schiffsführer und Nautik-Instruktoren</b> ausgebildet. Dadurch können alle möglichen <b>Arbeiten und Aufgaben am Wasser</b>, z.B. Veranstaltungsüberwachungen, bewältigt werden." },
+      { "title": "Fließ-/Wildwasser", "text": "Neben den zahlreichen Seen in Kärnten, gibt es auch <b>unzählige fließende Gewässer</b>. Deshalb werden bei der Wasserrettung auch <b>hochqualifizierte Fließ- und Wildwasserretter</b> ausgebildet um somit auch den <b>Gefahren von fließenden Gewässern</b> gewachsen zu sein." }
+    ],
+    "eventTypes":
+    {
+      "TechniqueTraining": "In unserem Training arbeiten wir zuerst gemeinsam an deiner <b>Fahrtechnik</b>. Grundlegende <b>Tipps und Tricks</b> zu Haltung, Brems- und Kurventechnik sollen dir helfen auf jedem Trail zu bestehen. Nachdem wir deine Technik verbessert haben rocken wir dann gemeinsam die Trails <b>rund um den Faaker See</b>.",
+      "GuidedTour": "Egal ob kurz-knackiger <b>Feierabend Trail</b>, fetziger <b>Enduro Ausflug</b> oder ausgiebige <b>Dreiländer-Tagestour</b>, wir sind deine Begleiter auf dem Weg zum <b>Rundum-Sorglos-Bike-Paket</b> und führen dich durch deine individuelle Traumtour im Raum <b>Villach / Faaker See / Dreiländereck</b>."
+    },
+    "goUrl": "#/news",
+    "go": "Termine"
+  },
+
+  "news":
+  {
+    "href": "#/news",
+    "title": "News",
+    "news":
+    [
+      {
+        "title": "Das Blaue Band vom Faaker See",
+        "text": "Auch dieses Jahr findet wieder unser traditionelles Schwimmen um das Blaue Band vom Faaker See statt. Alle Informationen und die Wettkampfbestimmungen findet ihr hier:<br /><br /><a href='#/blauesband' class='button special icon fa-angle-right'>Zu den Wettkampfbestimmungen</a>"
+      },
+      {
+        "title": "Schwimmkurse",
+        "text": "Wie jedes Jahr bieten wir auch diese Saison wieder zahlreiche Schwimm- und Rettungsschwimmkurse an. Alle angebotenen Kurse und weitere Informationen findet ihr hier:<br /><br /><a href='http://oewr-faak.at/courseadmin' target='_blank' class='button special icon fa-angle-right'>Zu unseren Kursen</a>"
+      }
+    ],
+    "goUrl": "#/impressionen",
+    "go": "Impressionen"
+  },
+
+  "quote3":
+  {
+    "text": "\"Kameradschaft wird bei uns GROSSGESCHRIEBEN!\"",
+    "author": "Wasserrettung Faaker See"
+  },
+
+  "impressions":
+  {
+    "href": "#/impressionen",
+    "keywords":
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  
+  "quote4":
+  {
+    "text": "\"Rettungsschwimmer zu sein bedeutet weit mehr als nur eine Ausbildung zu machen, es ist eine Lebenseinstellung.\"",
+    "author": "Wasserrettung Faaker See"
+  },
+
+  "contact":
+  {
+    "href": "#/kontakt",
+    "title": "Kontakt",
+    "titleTel": "Telefonnr.",
+    "titleEmail": "Email senden"
+  }
+}

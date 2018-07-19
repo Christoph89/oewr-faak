@@ -1,0 +1,150 @@
+{
+  "client":
+  {
+    "shownEvents": 5,
+    "allow_reg": true,
+    "ctx":
+    {
+      "apikey": "4b33abd43ef19f34327029142e4d8a0ca58a78477f82622f48775493dd4e1087",
+      "baseurl": "https://api.wasserrettung-faak.at/api/v2",
+      "db": "db_oewr"
+    },
+    "roles":
+    {
+      "OEWR Admin": "admin",
+      "OEWR Partner": "partner",
+      "OEWR WWW": "public",
+      "": "public"
+    },
+    "access":
+    {
+      "page":
+      {
+        "main": ["*"],
+        "events": ["*"],
+        "event": ["*"],
+        "event-edit": ["admin"],
+        "signin": ["*"]
+      }
+    }
+  },
+
+  "common":
+  {
+    "vendor": 
+    [
+      "%src/vendor/jquery/*.js",
+      "%src/vendor/modernizr/modernizr.js",
+      "%src/vendor/skel/skel.js",
+      "%src/vendor/linq/linq.js",
+      "%src/vendor/moment/moment.js",
+      "%src/vendor/moment/moment-de.js",
+      "%src/vendor/js-cookie/js-cookie.js"
+    ],
+    "iframeResizer":
+    [
+      "%src/vendor/iframeResizer/iframeResizer*.js"
+    ],
+    "styles":
+    [
+      "%src/sass/font.css"
+    ],
+    "fonts":
+    [
+      "%src/fonts/*"
+    ],
+    "html":
+    [
+      "%src/html/index.html",
+      "%src/html/coop.html",
+      "%src/html/coopTest.html"
+    ],
+    "tpl":
+    [
+      "%src/img/favicon/*",
+      "%src/tpl/sitemap.xml",
+      "%src/tpl/humans.txt",
+      "%src/tpl/robots.txt",
+      "%src/tpl/google5e333bbe565a5f1b.html"
+    ],
+    "pages": "%src/html/pages/*.html",
+    "pageDir": "%src/html/pages",
+    "images":
+    [
+      "%src/img/**/*.png",
+      "%src/img/**/*.jpg",
+      "%src/img/**/*.svg",
+      "%src/img/**/*.gif",
+      "!%src/img/edit/**/*",
+      "!%src/img/favicon/**/*"
+    ],
+    "typescript": [ "%src/ts/app.ts" ],
+    "scss": [ "%src/sass/main.scss" ],
+    "forms":
+    [
+      "%src/forms/*.pdf"
+    ]
+  },
+  
+  "dbg-de":
+  { 
+    "lang": "de", 
+    "dest": "./docs_debug", 
+    "root": "", 
+    "lngurl": "en/index.html", 
+    "cname": "www.wasserrettung-faak.at", 
+    "minify": false,
+    "sourcemaps": true,
+    "client": { "ctx": { "db": "db_oewr_dbg" } }
+  },
+
+  "dbg-en":
+  { 
+    "lang": "en", 
+    "dest": "./docs_debug/en", 
+    "root": "../", 
+    "lngurl": "../index.html", 
+    "cname": "www.wasserrettung-faak.at", 
+    "minify": false,
+    "sourcemaps": true,
+    "vendor": "null",
+    "iframeResizer": "null",
+    "styles": "null",
+    "fonts": "null",
+    "images": "null",
+    "typescript": "null",
+    "scss": "null",
+    "forms": "null",
+    "client": { "ctx": { "db": "db_oewr_dbg" } }
+  },
+
+  "release-de":
+  { 
+    "lang": "de", 
+    "dest": "./docs", 
+    "root": "", 
+    "lngurl": "https://www.wasserrettung-faak.at/en", 
+    "cname": "www.wasserrettung-faak.at", 
+    "minify": true,
+    "sourcemaps": false
+  },
+
+  "release-en":
+  { 
+    "lang": "en", 
+    "dest": "./docs/en", 
+    "root": "../", 
+    "lngurl": "https://www.wasserrettung-faak.at",
+    "cname": "www.wasserrettung-faak.at", 
+    "minify": true,
+    "sourcemaps": true,
+    "vendor": "null",
+    "iframeResizer": "null",
+    "styles": "null",
+    "fonts": "null",
+    "images": "null",
+    "typescript": "null",
+    "scss": "null",
+    "forms": "null"
+  }
+}

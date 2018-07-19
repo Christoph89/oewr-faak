@@ -1,0 +1,241 @@
+<div id="event-edit" class="page hidden divided" back="#/events" preload="true" synonyms="event-add">
+  
+  <section class="default wrapper style2 color7">
+    <div class="inner">
+      <h2>
+        <span mode="edit">Event bearbeiten</span>
+        <span mode="add">Event hinzufügen</span>
+      </h2>
+      <form>
+        <!-- name -->
+        <div class="field half first">
+          <label>Name</label>
+          <input type="text" name="event-name-de" placeholder="Event Name auf Deutsch" />
+        </div>
+        <div class="field half">
+          <label>&nbsp;</label>
+          <input type="text" name="event-name-en" placeholder="Event name in english" />
+        </div>
+        <div class="field"></div>
+
+        <!-- type -->
+        <div class="field">
+          <label>Typ</label>
+          <div class="select-wrapper">
+            <select name="event-type">
+              
+                <option value="TechniqueTraining" selected="selected">Technik Training</option>
+              
+                <option value="GuidedTour" >Geführte Tour</option>
+              
+                <option value="EBikeTour" >E-Bike Tour</option>
+              
+                <option value="Camp" >Camp</option>
+              
+                <option value="MechanicalTraining" >Schrauberkurs</option>
+              
+            </select>
+          </div>
+        </div>
+        <div class="field"></div>
+
+        <!-- status -->
+        <div class="field">
+          <label>Status</label>
+          <div class="select-wrapper">
+            <select name="event-status">
+              
+                <option value="TakesPlace" selected="selected">Findet statt</option>
+              
+                <option value="InProgress" >In Bearbeitung</option>
+              
+                <option value="Canceled" >Abgesagt</option>
+              
+                <option value="Deleted" >Gelöscht</option>
+              
+            </select>
+          </div>
+        </div>
+        <div class="field"></div>
+
+        <!-- level -->
+        <div class="field">
+          <label>Level</label>
+          
+            
+            <input type="radio" id="event-edit-level-everyone" name="event-level" value="Everyone" checked="checked" />
+            <label for="event-edit-level-everyone">Jedermann</label>
+            
+          
+            
+            <input type="radio" id="event-edit-level-beginner" name="event-level" value="Beginner"  />
+            <label for="event-edit-level-beginner">Einsteiger</label>
+            
+          
+            
+            <input type="radio" id="event-edit-level-advanced" name="event-level" value="Advanced"  />
+            <label for="event-edit-level-advanced">Fortgeschritten</label>
+            
+          
+            
+          
+        </div>
+        <div class="field"></div>
+
+        <!-- price -->
+        <div class="field half first">
+          <label>Preis</label>
+          <input type="radio" id="event-edit-price" name="event-price-type" value="price" checked="checked" />
+          <label for="event-edit-price">EUR</label>
+          <input type="number" name="event-price" placeholder="0.00" value="0.00" step="1.00" min="0"  />
+        </div>
+        <div class="field half">
+          <label>Erlebniscard</label>
+          <input type="radio" id="event-edit-price-erlebniscard" name="event-price-type" value="erlebniscard" />
+          <label for="event-edit-price-erlebniscard">Erlebniscard</label>
+        </div>
+        <div class="field"></div>
+
+        <!-- max participants -->
+        <div class="field half first">
+          <label>Maximale Teilnehmer</label>
+          <input type="number" name="event-max-participants" placeholder="0" value="6" step="1" min="1"  />
+        </div>
+        <div class="field half">
+          <label>Anmeldung</label>
+          <select name="event-allow-reg">
+            <option value="0">Nur via Email</option>
+            <option value="1">Admins</option>
+            <option value="3">Partner und Admins</option>
+            <option value="7">Alle</option>
+          </select>
+        </div>
+        <div class="field"></div>
+
+        <!-- short description -->
+        <div class="field half first">
+          <label>Kurzbeschreibung</label>
+          <textarea name="event-short-descr-de" placeholder="Kurze Event Beschreibung auf Deutsch"></textarea>
+        </div>
+        <div class="field half">
+          <label>&nbsp;</label>
+          <textarea name="event-short-descr-en" placeholder="Short event description in English"></textarea>
+        </div>
+        <div class="field"></div>
+
+        <!-- description -->
+        <div class="field half first">
+          <label>Beschreibung</label>
+          <textarea name="event-descr-de" placeholder="Event Beschreibung auf Deutsch"></textarea>
+        </div>
+        <div class="field half">
+          <label>&nbsp;</label>
+          <textarea name="event-descr-en" placeholder="Event description in English"></textarea>
+        </div>
+        <div class="field"></div>
+
+        <!-- requirements -->
+        <div class="field half first">
+          <label>Anforderungen</label>
+          <textarea name="event-requirements-de" placeholder="Event Anforderungen auf Deutsch (getrennt durch Zeilenumbruch, verwende ! als 1. Zeile um alle Anforderungen zu überschreiben)"></textarea>
+        </div>
+        <div class="field half">
+          <label>&nbsp;</label>
+          <textarea name="event-requirements-en" placeholder="Event requirements in English (separated by new lines, use ! als 1st line to overwrite all requirements"></textarea>
+        </div>
+        <div class="field"></div>
+
+        <!-- image -->
+        <div class="field">
+          <label>Foto</label>
+          
+          <img src="img/events/1.jpg" value="1.jpg" class="event-img selected first" />
+          
+          <img src="img/events/10.jpg" value="10.jpg" class="event-img " />
+          
+          <img src="img/events/11.jpg" value="11.jpg" class="event-img " />
+          
+          <img src="img/events/12.jpg" value="12.jpg" class="event-img " />
+          
+          <img src="img/events/13.jpg" value="13.jpg" class="event-img " />
+          
+          <img src="img/events/14.jpg" value="14.jpg" class="event-img " />
+          
+          <img src="img/events/15.jpg" value="15.jpg" class="event-img " />
+          
+          <img src="img/events/16.jpg" value="16.jpg" class="event-img " />
+          
+          <img src="img/events/17.jpg" value="17.jpg" class="event-img " />
+          
+          <img src="img/events/18.jpg" value="18.jpg" class="event-img " />
+          
+          <img src="img/events/19.jpg" value="19.jpg" class="event-img " />
+          
+          <img src="img/events/2.jpg" value="2.jpg" class="event-img " />
+          
+          <img src="img/events/20.jpg" value="20.jpg" class="event-img " />
+          
+          <img src="img/events/21.jpg" value="21.jpg" class="event-img " />
+          
+          <img src="img/events/22.jpg" value="22.jpg" class="event-img " />
+          
+          <img src="img/events/3.jpg" value="3.jpg" class="event-img " />
+          
+          <img src="img/events/4.jpg" value="4.jpg" class="event-img " />
+          
+          <img src="img/events/5.jpg" value="5.jpg" class="event-img " />
+          
+          <img src="img/events/6.jpg" value="6.jpg" class="event-img " />
+          
+          <img src="img/events/7.jpg" value="7.jpg" class="event-img " />
+          
+          <img src="img/events/8.jpg" value="8.jpg" class="event-img " />
+          
+          <img src="img/events/9.jpg" value="9.jpg" class="event-img " />
+          
+        </div>
+        <div class="field"></div>
+
+        <!-- meeting point -->
+        <div class="field">
+          <label>Treffpunkt</label>
+          <input type="text" name="event-meeting-point-description" placeholder="Beschreibung Treffpunkt" />
+          <br />
+          <div class="map" lat="46.56681976613046" lng="13.920010328292847" zoom="12">
+            <div class="marker draggable" lat="46.56681976613046" lng="13.920010328292847"></div>
+          </div>
+        </div>
+        <div class="field"></div>
+
+        <!-- dates -->
+        <div class="field">
+          <div class="table-wrapper">
+            <table class="dates">
+              <thead>
+                <tr>
+                    <th>Von</th>
+                    <th>Bis</th>
+                    <th></th>
+                  </tr>
+              </thead>
+              <tbody></tbody>
+              <tfoot>
+                <tr>
+                  <td><input type="datetime-local" name="event-from" /></td>
+                  <td><input type="datetime-local" name="event-to" /></td>
+                  <td><a class="add-date icon style2 fa-plus"></a></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+        <div class="field"></div>
+        <ul class="actions">
+          <li mode="edit"><a class="button edit-series icon fa-pencil">Serie bearbeiten</a></li>
+          <li mode="edit"><a class="button delete icon fa-trash">Termin löschen</a></li>
+          <li><a class="button save icon fa-save">Termin speichern</a></li>
+        </ul>
+      </form>
+    </div>
+  </section>
+</div>

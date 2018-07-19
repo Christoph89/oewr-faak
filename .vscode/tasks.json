@@ -1,0 +1,159 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "prep",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "prep"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-dbg-de",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-dbg-de"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-dbg-en",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-dbg-en"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-dbg",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-dbg"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-release-de",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-release-de"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-release-en",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-release-en"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build-release",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build-release"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "build"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "release",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "release"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "clean",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "clean"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "rebuild",
+      "command": "gulp",
+      "type": "shell",
+      "args": [
+        "rebuild"
+      ],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
